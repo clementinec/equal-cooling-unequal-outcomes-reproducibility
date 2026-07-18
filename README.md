@@ -11,7 +11,7 @@ Download `reviewer_reproducibility_v4_compact.tar.gz` from the repository's
 latest GitHub release. Its SHA-256 sidecar is available both in the release and
 at the repository root.
 
-The archive is 9,048,487 bytes and contains 128 files after extraction. It
+The archive is 9,048,492 bytes and contains 128 files after extraction. It
 includes the analysis code, focused tests, curated derived result tables,
 figure/table provenance, compact building-model inputs, and documentation
 needed to inspect the reported revision analyses.
@@ -40,7 +40,7 @@ tar -xzf reviewer_reproducibility_v4_compact.tar.gz
 Expected SHA-256:
 
 ```text
-1f325715b5e0b94fa9ca5ce194bdde1ce7cf8fcab991f47078f0d186455005cc
+dec4531f0229b3991592e33bd20185c9ed3d2267282f83686bb1bc15646b15c4
 ```
 
 After extraction, begin with
