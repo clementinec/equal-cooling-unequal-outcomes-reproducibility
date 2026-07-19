@@ -9,12 +9,14 @@ Minimal public result-reproduction snapshot for the manuscript:
 
 The versioned
 [`review-v5`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v5)
-release supplies two authenticated archives and their `.sha256` sidecars:
+documentation snapshot supplies the compact archive and its `.sha256`
+sidecar. The unchanged hourly companion remains available as the verified
+`review-v4` asset:
 
 - `reviewer_result_reproduction_v5_compact.tar.gz` — 6,923,866 bytes,
   SHA-256
   `b416ec4eccd7362e9bb7f164513e016f19b27b302ec4cf405b4f4f44bbbfd5ae`;
-- `reviewer_bem_hourly_v1_author_generated.tar.gz` — 127,442,067 bytes,
+- [`reviewer_bem_hourly_v1_author_generated.tar.gz`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/download/review-v4/reviewer_bem_hourly_v1_author_generated.tar.gz) — 127,442,067 bytes,
   SHA-256
   `3603c4dab978c306d1e01c19601fd0cddb0958582580d960590b43b6e15336f2`.
 
