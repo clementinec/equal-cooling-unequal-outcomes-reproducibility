@@ -11,9 +11,9 @@ The versioned
 [`review-v3`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v3)
 release supplies two authenticated archives and their `.sha256` sidecars:
 
-- `reviewer_result_reproduction_v5_compact.tar.gz` — 6,919,921 bytes,
+- `reviewer_result_reproduction_v5_compact.tar.gz` — 6,919,913 bytes,
   SHA-256
-  `78c311290419618005e2a20295e267bcc866b7a6ba4adf70f370f09986d8cb85`;
+  `cbe0a744bf39148824f7c8fb7dde54407f7889f412e3a57b2a205061f41a0a86`;
 - `reviewer_bem_hourly_v1_author_generated.tar.gz` — 127,442,067 bytes,
   SHA-256
   `3603c4dab978c306d1e01c19601fd0cddb0958582580d960590b43b6e15336f2`.

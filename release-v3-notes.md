@@ -14,7 +14,7 @@ licensing boundaries and incomplete upstream provenance.
 Compact archive SHA-256:
 
 ```text
-78c311290419618005e2a20295e267bcc866b7a6ba4adf70f370f09986d8cb85
+cbe0a744bf39148824f7c8fb7dde54407f7889f412e3a57b2a205061f41a0a86
 ```
 
 Hourly companion SHA-256:
