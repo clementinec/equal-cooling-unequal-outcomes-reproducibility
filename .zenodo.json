@@ -1,0 +1,21 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "affiliation": "Faculty of Architecture, The University of Hong Kong",
+      "name": "Guo, Hongshan"
+    }
+  ],
+  "description": "Authenticated code, model documentation, derived result data and checksums supporting the revised manuscript. The compact packet reproduces publication tables from curated derived inputs; a companion archive contains the twelve author-generated annual hourly BEM Parquet bundles. The deposit uses mixed, file-level licensing documented in LICENSING.md and LICENSE_MATRIX.tsv.",
+  "keywords": [
+    "residential cooling",
+    "thermal service",
+    "EnergyPlus",
+    "thermal comfort",
+    "thermoregulation",
+    "reproducibility"
+  ],
+  "notes": "The deposit does not redistribute raw thermal-comfort observations, the prepared TSV fitting table, UN WPP source records, CMIP6 source files or derived EPWs. See THIRD_PARTY_NOTICES.md.",
+  "title": "Result-reproduction materials for Equal cooling setpoints, unequal thermal outcomes",
+  "upload_type": "dataset"
+}

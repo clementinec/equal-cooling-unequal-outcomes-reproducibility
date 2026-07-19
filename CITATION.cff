@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the archived release and the associated manuscript."
+title: "Result-reproduction materials for Equal cooling setpoints, unequal thermal outcomes"
+type: dataset
+authors:
+  - family-names: Guo
+    given-names: Hongshan
+    affiliation: "Faculty of Architecture, The University of Hong Kong"
+version: 1.0.0
+date-released: 2026-07-19
+repository-code: "https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility"
+keywords:
+  - residential cooling
+  - thermal service
+  - EnergyPlus
+  - thermal comfort
+  - thermoregulation
+  - reproducibility
+abstract: >-
+  Authenticated code, model documentation, derived result data and checksums
+  supporting the revised manuscript. The compact packet reproduces publication
+  tables from curated derived inputs; a companion archive contains the twelve
+  author-generated annual hourly BEM Parquet bundles. See LICENSING.md and
+  LICENSE_MATRIX.tsv for mixed, file-level licensing.
