@@ -8,7 +8,7 @@ Minimal public result-reproduction snapshot for the manuscript:
 ## Download
 
 The versioned
-[`review-v4`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v4)
+[`review-v5`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v5)
 release supplies two authenticated archives and their `.sha256` sidecars:
 
 - `reviewer_result_reproduction_v5_compact.tar.gz` — 6,923,866 bytes,
@@ -23,8 +23,10 @@ and outputs, model cards, checksums, and documentation needed to regenerate
 16 publication outputs byte-for-byte. Its packet-only test command passes
 41 self-contained tests; five unchanged production-path checks are retained
 and explicitly labelled because their full-project inputs are outside the
-compact archive. The companion contains all 12 author-generated annual hourly
-BEM Parquet bundles: 1,296 logical cases and 7,568,640 rows.
+compact archive. A separately checksummed companion asset contains 12 Parquet
+bundles covering 864 unique annual BEM state series and 7,568,640 hourly rows.
+Because the fan pathway reuses the free-running EnergyPlus state, these series
+represent 1,296 logical system-pathway cases.
 
 This is **result reproduction**, not an end-to-end raw-data reconstruction
 claim. The release excludes the 144 derived EPWs because the retained weather
