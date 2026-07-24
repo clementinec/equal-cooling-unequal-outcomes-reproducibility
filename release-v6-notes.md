@@ -28,6 +28,6 @@ remain unchanged.
 Compact archive:
 
 - file: `reviewer_result_reproduction_v6_compact.tar.gz`
-- bytes: `6,946,611`
+- bytes: `6,946,667`
 - SHA-256:
-  `5aa35929da03ca4c2ce97725e473210678f1d9af2ce15973e53285e60b7c7afd`
+  `efcb9cf34cf2e59c6177873ded0f0b8543064297a8ba073ac8e139d4011c4421`

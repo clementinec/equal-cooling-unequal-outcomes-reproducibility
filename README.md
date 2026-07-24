@@ -12,9 +12,9 @@ The immutable
 release supplies the compact archive and its SHA-256 sidecar. The unchanged
 hourly companion remains available as the verified `review-v4` asset:
 
-- `reviewer_result_reproduction_v6_compact.tar.gz` — 6,946,611 bytes,
+- `reviewer_result_reproduction_v6_compact.tar.gz` — 6,946,667 bytes,
   SHA-256
-  `5aa35929da03ca4c2ce97725e473210678f1d9af2ce15973e53285e60b7c7afd`;
+  `efcb9cf34cf2e59c6177873ded0f0b8543064297a8ba073ac8e139d4011c4421`;
 - [`reviewer_bem_hourly_v1_author_generated.tar.gz`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/download/review-v4/reviewer_bem_hourly_v1_author_generated.tar.gz) — 127,442,067 bytes,
   SHA-256
   `3603c4dab978c306d1e01c19601fd0cddb0958582580d960590b43b6e15336f2`.
