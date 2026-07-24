@@ -7,20 +7,20 @@ Minimal public reproducibility materials for the manuscript:
 
 ## Download
 
-The immutable
+The versioned
 [`review-v6`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v6)
 release supplies the compact archive and its SHA-256 sidecar. The unchanged
 hourly companion remains available as the verified `review-v4` asset:
 
-- `reviewer_result_reproduction_v6_compact.tar.gz` — 6,946,667 bytes,
+- `reviewer_result_reproduction_v6_compact.tar.gz` — 6,909,846 bytes,
   SHA-256
-  `efcb9cf34cf2e59c6177873ded0f0b8543064297a8ba073ac8e139d4011c4421`;
+  `904a1a98d7590689cf2ece4725c6f1e21f918a5e40c31c124f657daf2df3fc50`;
 - [`reviewer_bem_hourly_v1_author_generated.tar.gz`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/download/review-v4/reviewer_bem_hourly_v1_author_generated.tar.gz) — 127,442,067 bytes,
   SHA-256
   `3603c4dab978c306d1e01c19601fd0cddb0958582580d960590b43b6e15336f2`.
 
 The compact packet regenerates 16 publication outputs byte-for-byte and
-passes 46 self-contained tests, with five full-project checks explicitly
+passes 49 self-contained tests, with five full-project checks explicitly
 deselected. It also provides a clean public-source reconstruction of the
 empirical thermal-sensation-vote analysis:
 
@@ -43,6 +43,17 @@ EPWs also remain excluded because the retained weather-source record does not
 establish the source-specific attribution and reuse terms needed for
 redistribution. Weather-selection manifests, generated EnergyPlus inputs, and
 the complete author-generated hourly BEM outputs are available.
+
+## Packaging correction
+
+On 24 July 2026, the compact `review-v6` asset was rebuilt in place to remove
+local workflow documents and non-portable path metadata that were unrelated
+to the scientific record. The clean packet adds a completed physiology QA
+record and exact inventory/content gates. All 16 publication-reproduction
+targets and the curated scientific result assets are unchanged. The
+superseded package had SHA-256
+`efcb9cf34cf2e59c6177873ded0f0b8543064297a8ba073ac8e139d4011c4421`;
+the governing checksum is the one listed above.
 
 ## Verify and extract
 
@@ -72,5 +83,5 @@ the archive's `LICENSE_MATRIX.tsv` controls the file-level scope. No project
 licence is asserted for third-party observations or excluded weather files.
 See `LICENSING.md`, `LICENSE-DATA.md`, and `THIRD_PARTY_NOTICES.md`.
 
-Use `CITATION.cff`, the immutable release tag, and the archive SHA-256 when
+Use `CITATION.cff`, the versioned release tag, and the archive SHA-256 when
 citing these materials.
