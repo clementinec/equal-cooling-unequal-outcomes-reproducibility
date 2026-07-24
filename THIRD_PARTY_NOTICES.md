@@ -48,11 +48,20 @@ not replace or modify the UN source terms.
 
 ## Thermal-comfort observations and TSV artefacts
 
-Raw thermal-comfort observations and the prepared 148,148 × 78 fitting table
-are excluded. Fitted coefficients, bootstrap results and other TSV-derived
-artefacts in the compact review packet are marked
-`LicenseRef-Pending-Third-Party-Rights` until the source-data redistribution
-terms and required attribution are confirmed.
+The TSV reconstruction identifies and verifies two public sources:
+
+- ASHRAE Global Thermal Comfort Database II version 2.1.0, Dryad DOI
+  `10.6078/D1F671`, released under CC0; and
+- The Chinese Thermal Comfort Dataset, OSF DOI
+  `10.17605/OSF.IO/D465N`, public project state dated 5 August 2023.
+
+The Chinese OSF record declares no explicit dataset licence. Raw
+thermal-comfort observations and the combined 148,148 × 78 fitting table are
+therefore not redistributed. The compact packet downloads the sources
+directly from their public records, verifies the pinned SHA-256 digests, and
+rebuilds the model-ready view from documented mapping and cleaning rules.
+CC BY 4.0 assignments for fitted parameters and aggregate TSV artefacts cover
+only rights controlled by the author and do not modify the source-data terms.
 
 ## Climate data and EPWs
 

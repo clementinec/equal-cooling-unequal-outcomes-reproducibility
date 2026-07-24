@@ -6,8 +6,8 @@ authors:
   - family-names: Guo
     given-names: Hongshan
     affiliation: "Faculty of Architecture, The University of Hong Kong"
-version: 1.0.1
-date-released: 2026-07-19
+version: 1.1.0
+date-released: 2026-07-24
 repository-code: "https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility"
 keywords:
   - residential cooling
@@ -17,8 +17,10 @@ keywords:
   - thermoregulation
   - reproducibility
 abstract: >-
-  Authenticated code, model documentation, derived result data and checksums
-  supporting the revised manuscript. The compact packet reproduces publication
-  tables from curated derived inputs; a companion archive contains the twelve
-  author-generated annual hourly BEM Parquet bundles. See LICENSING.md and
-  LICENSE_MATRIX.tsv for mixed, file-level licensing.
+  Authenticated code, public-source TSV reconstruction, model documentation,
+  derived result data and checksums supporting the revised manuscript. The
+  packet reproduces publication tables from curated derived inputs and
+  independently rebuilds and verifies the empirical TSV fit from pinned public
+  downloads; a companion archive contains the twelve author-generated annual
+  hourly BEM Parquet bundles. See LICENSING.md and LICENSE_MATRIX.tsv for
+  mixed, file-level licensing.

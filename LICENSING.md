@@ -5,8 +5,7 @@ This deposit uses scoped, file-level licensing:
 - original project software marked `MIT` is covered by `LICENSE-CODE.txt`;
 - enumerated author-generated documentation, model outputs, result data and
   metadata marked `CC-BY-4.0` are covered by `LICENSE-DATA.md`;
-- files marked `LicenseRef-Pending-Third-Party-Rights` are included only for
-  transparent peer-review inspection and are not licensed for reuse by this
+- third-party observations are not included and are not licensed by this
   deposit; and
 - third-party notices and retained upstream rights are recorded in
   `THIRD_PARTY_NOTICES.md`.
@@ -17,9 +16,10 @@ statement must not be interpreted as broadening the licence assigned to an
 individual file.
 
 The prepared 148,148 × 78 thermal-comfort fitting table and the 144 derived
-EPWs are not included. A redistribution grant for the underlying comfort
-observations was not retained, and the climate chain lacks a retained
-source-specific redistribution grant and complete attribution record.
-Accordingly, this deposit cannot authorize redistribution of those files. The
-compact packet's TSV artefacts are conservatively marked pending because their
-underlying source-data rights have not been established.
+EPWs are not included. The TSV table is independently rebuilt from pinned
+public downloads. ASHRAE Database II v2.1.0 is CC0; the Chinese OSF record is
+publicly downloadable but declares no explicit dataset licence. Accordingly,
+the packet downloads the Chinese source directly from OSF and does not
+redistribute or relicense its rows. CC BY 4.0 assignments cover only the
+author's original code-adjacent documentation, fitted parameters, aggregate
+results and metadata identified in the archive's `LICENSE_MATRIX.tsv`.

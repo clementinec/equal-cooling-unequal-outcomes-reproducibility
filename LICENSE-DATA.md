@@ -7,15 +7,17 @@ the [Creative Commons Attribution 4.0 International
 Licence](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 This grant applies only to rights controlled by Hongshan Guo in the exact
-files enumerated by the matrix. It does **not** license:
+files enumerated by the matrix. It includes the author's original fitted
+parameters, imputation values, aggregate TSV outputs, model outputs, result
+tables and metadata where the matrix assigns `CC-BY-4.0`. It does **not**
+license:
 
-- the prepared thermal-comfort fitting table, fitted or derived TSV artefacts,
-  or upstream thermal-comfort observations;
+- the prepared thermal-comfort fitting table or upstream thermal-comfort
+  observations;
 - UN World Population Prospects source records or other third-party material;
 - CMIP6/MPI-ESM1-2-LR source climate data or derived EPW files;
 - third-party software; or
-- any file marked `LicenseRef-Pending-Third-Party-Rights` or
-  `LicenseRef-Third-Party-Notice`.
+- any file marked `LicenseRef-Third-Party-Notice`.
 
 Attribution should identify Hongshan Guo, the dataset or packet title, the
 version or archived DOI, and the applicable CC BY 4.0 licence. A suggested

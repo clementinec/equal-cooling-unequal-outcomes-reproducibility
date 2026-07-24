@@ -1,74 +1,76 @@
 # Equal cooling setpoints, unequal thermal outcomes
 
-Minimal public result-reproduction snapshot for the manuscript:
+Minimal public reproducibility materials for the manuscript:
 
 > *Equal cooling setpoints, unequal thermal outcomes: residential cooling
 > service under future weather and ageing*
 
 ## Download
 
-The versioned
-[`review-v5`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v5)
-documentation snapshot supplies the compact archive and its `.sha256`
-sidecar. The unchanged hourly companion remains available as the verified
-`review-v4` asset:
+The immutable
+[`review-v6`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/tag/review-v6)
+release supplies the compact archive and its SHA-256 sidecar. The unchanged
+hourly companion remains available as the verified `review-v4` asset:
 
-- `reviewer_result_reproduction_v5_compact.tar.gz` — 6,923,866 bytes,
+- `reviewer_result_reproduction_v6_compact.tar.gz` — 6,946,611 bytes,
   SHA-256
-  `b416ec4eccd7362e9bb7f164513e016f19b27b302ec4cf405b4f4f44bbbfd5ae`;
+  `5aa35929da03ca4c2ce97725e473210678f1d9af2ce15973e53285e60b7c7afd`;
 - [`reviewer_bem_hourly_v1_author_generated.tar.gz`](https://github.com/clementinec/equal-cooling-unequal-outcomes-reproducibility/releases/download/review-v4/reviewer_bem_hourly_v1_author_generated.tar.gz) — 127,442,067 bytes,
   SHA-256
   `3603c4dab978c306d1e01c19601fd0cddb0958582580d960590b43b6e15336f2`.
 
-The compact packet contains the analysis code, authenticated curated inputs
-and outputs, model cards, checksums, and documentation needed to regenerate
-16 publication outputs byte-for-byte. Its packet-only test command passes
-41 self-contained tests; five unchanged production-path checks are retained
-and explicitly labelled because their full-project inputs are outside the
-compact archive. A separately checksummed companion asset contains 12 Parquet
-bundles covering 864 unique annual BEM state series and 7,568,640 hourly rows.
-Because the fan pathway reuses the free-running EnergyPlus state, these series
-represent 1,296 logical system-pathway cases.
+The compact packet regenerates 16 publication outputs byte-for-byte and
+passes 46 self-contained tests, with five full-project checks explicitly
+deselected. It also provides a clean public-source reconstruction of the
+empirical thermal-sensation-vote analysis:
 
-This is **result reproduction**, not an end-to-end raw-data reconstruction
-claim. The release excludes the 144 derived EPWs because the retained weather
-chain does not preserve the original provider/version/URL, source-specific
-redistribution grant, or complete attribution record. It also excludes
-third-party raw comfort observations and the exact 148,148 × 78 prepared
-comfort-data table because a redistribution grant was not retained and the
-upstream curation record is incomplete. The TSV model therefore cannot be
-independently refitted from this release. These boundaries are documented
-inside the compact packet.
+- ASHRAE Global Thermal Comfort Database II v2.1.0 is pinned to
+  [Dryad DOI 10.6078/D1F671](https://doi.org/10.6078/D1F671) and its CC0
+  source files;
+- the Chinese Thermal Comfort Dataset is pinned to
+  [OSF DOI 10.17605/OSF.IO/D465N](https://doi.org/10.17605/OSF.IO/D465N);
+- exact filenames, download endpoints, hashes, field mappings, cleaning rules,
+  and executable build/refit commands are included; and
+- the workflow rebuilds 148,148 rows into a 36-column model-ready view and
+  independently refits all 258 coefficients across five reported branches.
+  The maximum absolute difference from the released coefficients is
+  `9.410250356722827e-13`.
+
+The Chinese OSF record is publicly downloadable but does not declare an
+explicit dataset licence. Its files are therefore fetched directly from OSF
+and hash-verified rather than redistributed in the archive. The 144 derived
+EPWs also remain excluded because the retained weather-source record does not
+establish the source-specific attribution and reuse terms needed for
+redistribution. Weather-selection manifests, generated EnergyPlus inputs, and
+the complete author-generated hourly BEM outputs are available.
 
 ## Verify and extract
 
 On macOS:
 
 ```sh
-shasum -a 256 -c reviewer_result_reproduction_v5_compact.tar.gz.sha256
-shasum -a 256 -c reviewer_bem_hourly_v1_author_generated.tar.gz.sha256
-tar -xzf reviewer_result_reproduction_v5_compact.tar.gz
+shasum -a 256 -c reviewer_result_reproduction_v6_compact.tar.gz.sha256
+tar -xzf reviewer_result_reproduction_v6_compact.tar.gz
 ```
 
 On Linux:
 
 ```sh
-sha256sum -c reviewer_result_reproduction_v5_compact.tar.gz.sha256
-sha256sum -c reviewer_bem_hourly_v1_author_generated.tar.gz.sha256
-tar -xzf reviewer_result_reproduction_v5_compact.tar.gz
+sha256sum -c reviewer_result_reproduction_v6_compact.tar.gz.sha256
+tar -xzf reviewer_result_reproduction_v6_compact.tar.gz
 ```
 
 After extraction, begin with
-`reviewer_result_reproduction_v5_compact/README.md`, then follow
-`RUNBOOK.md`.
+`reviewer_result_reproduction_v6_compact/README.md`, then follow
+`RUNBOOK.md` and `TSV_REPRODUCIBILITY.md`.
 
-## Licensing and archival citation
+## Licensing and citation
 
-Original project code is available under the MIT licence. Only the
-author-generated result/model-output files enumerated by each archive's
-`LICENSE_MATRIX.tsv` are available under CC BY 4.0. TSV-derived,
-source-derived and third-party material is excluded from those grants. See
-`LICENSING.md`, `LICENSE-DATA.md` and `THIRD_PARTY_NOTICES.md`.
+Original project code is available under the MIT licence. Enumerated
+author-generated result and model-output files are available under CC BY 4.0;
+the archive's `LICENSE_MATRIX.tsv` controls the file-level scope. No project
+licence is asserted for third-party observations or excluded weather files.
+See `LICENSING.md`, `LICENSE-DATA.md`, and `THIRD_PARTY_NOTICES.md`.
 
-Use `CITATION.cff`, the immutable release tag and the archive SHA-256 when
-citing the present review materials.
+Use `CITATION.cff`, the immutable release tag, and the archive SHA-256 when
+citing these materials.

@@ -6,7 +6,7 @@
       "name": "Guo, Hongshan"
     }
   ],
-  "description": "Authenticated code, model documentation, derived result data and checksums supporting the revised manuscript. The compact packet reproduces publication tables from curated derived inputs; a companion archive contains the twelve author-generated annual hourly BEM Parquet bundles. The deposit uses mixed, file-level licensing documented in LICENSING.md and LICENSE_MATRIX.tsv.",
+  "description": "Authenticated code, public-source TSV reconstruction, model documentation, derived result data and checksums supporting the revised manuscript. The packet reproduces publication tables from curated derived inputs and independently rebuilds and verifies the TSV fit from pinned public downloads; a companion archive contains the twelve author-generated annual hourly BEM Parquet bundles. The deposit uses mixed, file-level licensing documented in LICENSING.md and LICENSE_MATRIX.tsv.",
   "keywords": [
     "residential cooling",
     "thermal service",
@@ -15,7 +15,7 @@
     "thermoregulation",
     "reproducibility"
   ],
-  "notes": "The deposit does not redistribute raw thermal-comfort observations, the prepared TSV fitting table, UN WPP source records, CMIP6 source files or derived EPWs. See THIRD_PARTY_NOTICES.md.",
+  "notes": "The deposit does not redistribute raw thermal-comfort observations, the prepared TSV fitting table, UN WPP source records, CMIP6 source files or derived EPWs. The TSV sources are fetched from their pinned public records; the Chinese OSF record declares no explicit dataset licence. See the compact packet's TSV_REPRODUCIBILITY.md and THIRD_PARTY_NOTICES.md.",
   "title": "Result-reproduction materials for Equal cooling setpoints, unequal thermal outcomes",
   "upload_type": "dataset"
 }
